@@ -127,7 +127,7 @@ public class FinesImpl  {
           return new AVLNode(priority);
         }
         // Traverse binary tree to get to end of branch
-        // Note: since a ship with the same priority as one after it does not have to
+        // Note: since a fan with the same priority as one after it does not have to
         // pay a fine, nodes with same priority go to left
         // priority and size parameters for inserted node are inserted into left child
         // node (recursive)
