@@ -232,7 +232,11 @@ public class FinesImpl  {
     //TEST CASE
     public static void main(String[] args) {
     int[] fines = {29, 29, 7, 19, 17, 13, 11, 5, 3, 2};
-    AVLTree testTree = new AVLTree();
-    System.out.println(testTree.finecount(fines));
+    AVLTree testTreeFines = new AVLTree();
+    System.out.println("Test Case fines: "+testTreeFines.finecount(fines));
+
+    int[] nofines = {13, 8, 8, 5, 3, 2, 0};
+    AVLTree testTreeNoFines = new AVLTree();
+    System.out.println("Test Case nofines: "+testTreeNoFines.finecount(nofines));
     }
   }
